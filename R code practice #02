@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNvi9Xpwbmf6325oVniSAMP",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "ir",
+      "display_name": "R"
+    },
+    "language_info": {
+      "name": "R"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Clairekmkim/Clairekmkim/blob/main/R%20code%20practice%20%2302\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ouqDa1WtbFR5",
+        "outputId": "a7217cf7-3fad-4056-b271-235a7ad3997e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The sum of squares from 1^2 to 10^2 is: 385 \n"
+          ]
+        }
+      ],
+      "source": [
+        "sum_squares <- 0\n",
+        "for (i in 1:10) {\n",
+        "    sum_squares <- sum_squares + i^2\n",
+        "}\n",
+        "\n",
+        "cat(\"The sum of squares from 1^2 to 10^2 is:\", sum_squares, \"\\n\")\n"
+      ]
+    }
+  ]
+}
